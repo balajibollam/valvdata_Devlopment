@@ -1,0 +1,68 @@
+body {
+    overflow: auto;
+    background: lightcoral;
+}
+ 
+
+.bg {
+    background-image: url("images/BlinkImage.webp") ; 
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#first,#second,#fourth,#seventh,#fifth,#third
+{
+background: transparent;
+}
+ul.tabs {
+  /* right: -270px; */
+    background: mintcream;
+    bottom: 10px; 
+}
+
+/* #iconCom {
+    width: 250px;
+    left: 18px;
+    } */
+    
+    img#iconCom {
+	 left: 544px;
+    position: relative;
+    top: 20px; 
+    height: 60px;
+    
+} 
+#valvicon {
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 0px;  
+    
+} 
+#contentp
+{
+    /* width: 50%;
+        color: white;
+    font-size: 23px; */
+}
+#aboutC{
+    background-color: #FFF;
+  /*  display: table; */
+     position: relative;
+    left: 640px;
+    /* top: -300px; */
+        bottom: 384px; 
+}
+
+#contentp {
+    width: 55%;
+    font-size: 21px;
+    color: black;
+    line-height: 22px;
+    font-family: cursive;
+}

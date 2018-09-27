@@ -1,0 +1,191 @@
+#home-button
+{
+	 right: -1270px;
+    position: relative;
+    background: wheat;
+    top: 30px;
+}  
+
+
+
+/*css for login page */
+#uname,#pwd,.inputReg
+{
+background-color: #ffffff;
+background-image: none;
+border: 1px solid #282828;
+border-radius: 4px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+color: #888888;
+display: block;
+font-size: 14px;
+/* height: 38px; */
+line-height: 1.42857;
+padding: 8px 12px;
+transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.inner
+{
+	box-shadow: none;
+    border: 0;
+    padding: 24px;
+    width: 100%;
+	    margin-left: auto;
+    margin-right: auto;
+    min-height: 164px;
+    min-width: 220px;
+    max-width: 12px;
+    width: calc(100% - 40px);
+    padding: 36px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    border: 1px solid #818c94;
+    border: 1px solid rgba(0,0,0,.4);
+}
+
+.inner-r
+{
+	box-shadow: none;
+    border: 0;
+    padding: 24px;
+    width: 100%;
+	    margin-left: auto;
+    margin-right: auto;
+    min-height: 550px;
+    min-width: 250px;
+    max-width: 12px;
+    width: calc(100% - 40px);
+    padding: 36px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    border: 1px solid #818c94;
+    border: 1px solid rgba(0,0,0,.4);
+}
+
+
+.inner-loginhome
+{
+	box-shadow: none;
+    border: 0;
+    padding: 24px;
+    width: 100%;
+	    margin-left: auto;
+    margin-right: auto;
+    min-height: 550px;
+    min-width: 250px;
+    max-width: 12px;
+    width: calc(100% - 40px);
+    padding: 36px;
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    box-shadow: 0 2px 3px rgba(0,0,0,.55);
+    border: 1px solid #818c94;
+    border: 1px solid rgba(0,0,0,.4);
+}
+
+
+
+
+img#iconCom {
+    right: 0px;
+    position: relative;
+    z-index: unset;
+    height: 40px;
+}
+
+
+
+
+
+#login,#register,#edit
+{
+          background-color: #004e76;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: opensans-bold;
+    font-size: 16px;
+    height: 28px;
+    padding: 7px 12px;
+    width: auto;
+    border-radius: 0px;
+}
+	
+span#errorMessage {
+    color: red;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.slideshow-container {
+    background-image: url("images/BacKlogin.jpg");
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.bg-r {
+    background-image: url("images/registerBack.jpg");
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+.bg-loginhome {
+    background-image: url("images/Office.jpg");
+    background-repeat: no-repeat;
+     /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+
+img.ui-datepicker-trigger {
+    position: relative;
+    right: -200px;
+    height: 25px;
+    top: -30px;
+    left: 160px;
+}
+
+
+#email,#fullName,#dateOfbirth,#pwd,#uname
+{
+background-color: #ecf1e5 !important;
+}
+
